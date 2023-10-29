@@ -18,4 +18,4 @@ def generate(prompt):
   return jsonify(response)
 
 
-app.run(debug=True)
+app.run(debug=false,host='0.0.0.0')
